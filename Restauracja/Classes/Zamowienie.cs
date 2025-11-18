@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Restauracja.Classes
 {
-    internal class Zamowienie
+    public class Zamowienie
     {
+        public int Id { get; set; }
+
     }
 }

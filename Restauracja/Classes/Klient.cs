@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Restauracja.Classes
 {
-    internal class Klient
+    public class Klient
     {
+        public string Imie;
     }
 }

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Restauracja.Classes
 {
-    internal class Danie
+    public class Danie
     {
+        public int Id { get; set; }
+        public string Nazwa { get; set; }
+
     }
 }
